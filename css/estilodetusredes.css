@@ -14,10 +14,17 @@ body{
     border-style: none;
     border: 5px;
     width: 100%;
+    text-align: center;
+  }
+  .espacio{
+    font-family: 'futura', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: block;
+    border-style: none;
+    border: 5px;
     height: 150px;
+    width: 100%;
     padding: 0;
     margin: 0;
-    text-align: center;
   }
   .menu{
     font-family: 'futura';
@@ -26,7 +33,7 @@ body{
     background: #2a3132;
     width: auto;
     height: auto;
-    margin: auto;
+    margin-bottom: 40px;
   }
   .menu li a{
     text-decoration: none;
@@ -59,7 +66,7 @@ body{
 /* HASTA ACA FINALIZA LA PARTE DEL MENU, ESTILO DE LETRAS ETC */
 .container {  display: grid;
     grid-template-columns: 1fr 1fr 0.1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 0.01fr;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr 0.01fr;
     grid-auto-columns: 1fr;
     gap: 10px 5px;
     grid-auto-flow: row;

@@ -65,7 +65,7 @@ body{
 /* HASTA ACA FINALIZA LA PARTE DEL MENU, ESTILO DE LETRAS ETC */
 #container {  display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 0.1fr;
+    grid-template-rows: 0.8fr 1fr 1fr 1fr 0.1fr;
     grid-auto-columns: 1fr;
     gap: 10px 5px;
     grid-auto-flow: row;

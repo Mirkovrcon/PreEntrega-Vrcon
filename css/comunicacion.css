@@ -27,7 +27,7 @@ body{
     width: auto;
     height: auto;
     max-width: 958px;
-    margin: auto;
+    margin-bottom: 40px;
   }
   .menu li a{
      text-decoration: none;
@@ -46,7 +46,7 @@ body{
 /* HASTA ACA FINALIZA LA PARTE DEL MENU, ESTILO DE LETRAS ETC */
 .container {  display: grid;
     grid-template-columns: 1fr 1.5fr 0.5fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 0.01fr;
+    grid-template-rows: 0.8fr 1fr 1fr 1fr 1fr 0.01fr;
     gap: 10px 5px;
     grid-auto-flow: row;
     grid-template-areas:

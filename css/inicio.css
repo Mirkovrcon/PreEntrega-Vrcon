@@ -26,7 +26,8 @@ h1{
   background: #2a3132;
   width: auto;
   height: auto;
-  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 40px;
 }
 .menu li a{
    text-decoration: none;
@@ -55,7 +56,7 @@ h1{
 }
 .container {  display: grid;
     grid-template-columns: 50% 1.5fr 0.5fr;
-    grid-template-rows:1fr 1fr 1fr 2fr 0.01fr;
+    grid-template-rows:1.2fr 1fr 1fr 2fr 0.01fr;
     gap: 5px 5px;
     grid-auto-flow: row;
     grid-template-areas:
@@ -153,6 +154,49 @@ h1{
   .border{
     border: 2px solid #2A3132;
   }
+  #Cambio{
+    font-family: 'futura';
+    display: flex;
+    width: 880px;
+    height: 80px;
+    color: black;
+    font-size: 80px;
+    line-height: 80px;
+
+    position: 50% 50%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 10%;
+
+    overflow: hidden;
+}
+ol{
+    list-style: none;
+    padding-left: 10px;
+    animation: cambio 7s infinite;
+}  
+ol, p{
+    margin: 0;
+}
+@keyframes cambio{
+
+    0%{ margin-top: 0;}
+    20%{margin-top: 0;}
+
+    25%{margin-top: -80px}
+    50%{ margin-top: -80px}
+
+    55%{margin-top: -160px}
+    80%{margin-top: -160px}
+
+    85%{margin-top: -80px;}
+    95%{margin-top: -80px;}
+
+    100%{margin-top: 0;}
+
+}
   /*HASTA ACA ES TODO LO DEL FOOTER*/
   /*COMIENZA RESPONSIVE PARA CELULAR*/
   @media screen and (max-width: 965px) {
@@ -224,5 +268,327 @@ h1{
     #Encabezado{
       width: 100%;
     }
+  }
+  @media screen and (max-width: 1024px) {
+    #Cambio{
+      font-family: 'futura';
+      display: flex;
+      width: 850px;
+      height: 70px;
+      color: black;
+      font-size: 70px;
+      line-height: 70px;
+  
+      position: 50% 50%;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: 10%;
+  
+      overflow: hidden;
+  }
+  ol{
+      list-style: none;
+      padding-left: 10px;
+      animation: cambio 7s infinite;
+  }  
+  ol, p{
+      margin: 0;
+  }
+  @keyframes cambio{
+  
+      0%{ margin-top: 0;}
+      20%{margin-top: 0;}
+  
+      25%{margin-top: -70px}
+      50%{ margin-top: -70px}
+  
+      55%{margin-top: -140px}
+      80%{margin-top: -140px}
+  
+      85%{margin-top: -70px;}
+      95%{margin-top: -70px;}
+  
+      100%{margin-top: 0;}
+  
+  }
     /*TERMINA EL RESPONSIVE PARA CELULAR*/
   }
+  @media screen and (max-width: 930px) {
+    #Cambio{
+      font-family: 'futura';
+      display: flex;
+      width: 870px;
+      height: 60px;
+      color: black;
+      font-size: 60px;
+      line-height: 60px;
+  
+      position: 50% 50%;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: 10%;
+  
+      overflow: hidden;
+  }
+  ol{
+      list-style: none;
+      padding-left: 10px;
+      animation: cambio 7s infinite;
+  }  
+  ol, p{
+      margin: 0;
+  }
+  @keyframes cambio{
+  
+      0%{ margin-top: 0;}
+      20%{margin-top: 0;}
+  
+      25%{margin-top: -60px}
+      50%{ margin-top: -60px}
+  
+      55%{margin-top: -120px}
+      80%{margin-top: -120px}
+  
+      85%{margin-top: -60px;}
+      95%{margin-top: -60px;}
+  
+      100%{margin-top: 0;}
+  
+  }
+    /*TERMINA EL RESPONSIVE PARA CELULAR*/
+  }
+  @media screen and (max-width: 768px) {
+    #Cambio{
+      font-family: 'futura';
+      display: flex;
+      width: 690px;
+      height: 50px;
+      color: black;
+      font-size: 50px;
+      line-height: 50px;
+  
+      position: 50% 50%;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: 10%;
+  
+      overflow: hidden;
+  }
+  ol{
+      list-style: none;
+      padding-left: 10px;
+      animation: cambio 7s infinite;
+  }  
+  ol, p{
+      margin: 0;
+  }
+  @keyframes cambio{
+  
+      0%{ margin-top: 0;}
+      20%{margin-top: 0;}
+  
+      25%{margin-top: -50px}
+      50%{ margin-top: -50px}
+  
+      55%{margin-top: -100px}
+      80%{margin-top: -100px}
+  
+      85%{margin-top: -50px;}
+      95%{margin-top: -50px;}
+  
+      100%{margin-top: 0;}
+  
+  }
+    /*TERMINA EL RESPONSIVE PARA CELULAR*/
+  }
+  @media screen and (max-width: 670px) {
+    #Cambio{
+      font-family: 'futura';
+      display: flex;
+      width: 610px;
+      height: 40px;
+      color: black;
+      font-size: 40px;
+      line-height: 40px;
+  
+      position: 50% 50%;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: 10%;
+  
+      overflow: hidden;
+  }
+  ol{
+      list-style: none;
+      padding-left: 10px;
+      animation: cambio 7s infinite;
+  }  
+  ol, p{
+      margin: 0;
+  }
+  @keyframes cambio{
+  
+      0%{ margin-top: 0;}
+      20%{margin-top: 0;}
+  
+      25%{margin-top: -40px}
+      50%{ margin-top: -40px}
+  
+      55%{margin-top: -80px}
+      80%{margin-top: -80px}
+  
+      85%{margin-top: -40px;}
+      95%{margin-top: -40px;}
+  
+      100%{margin-top: 0;}
+  
+  }
+    /*TERMINA EL RESPONSIVE PARA CELULAR*/
+  }
+  @media screen and (max-width: 536px) {
+    #Cambio{
+      font-family: 'futura';
+      display: flex;
+      width: 474px;
+      height: 35px;
+      color: black;
+      font-size: 35px;
+      line-height: 35px;
+  
+      position: 50% 50%;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: 10%;
+  
+      overflow: hidden;
+  }
+  ol{
+      list-style: none;
+      padding-left: 10px;
+      animation: cambio 7s infinite;
+  }  
+  ol, p{
+      margin: 0;
+  }
+  @keyframes cambio{
+  
+      0%{ margin-top: 0;}
+      20%{margin-top: 0;}
+  
+      25%{margin-top: -35px}
+      50%{ margin-top: -35px}
+  
+      55%{margin-top: -70px}
+      80%{margin-top: -70px}
+  
+      85%{margin-top: -35px;}
+      95%{margin-top: -35px;}
+  
+      100%{margin-top: 0;}
+  
+  }
+    /*TERMINA EL RESPONSIVE PARA CELULAR*/
+  }
+  @media screen and (max-width: 425px) {
+    #Cambio{
+      font-family: 'futura';
+      display: flex;
+      width: 370px;
+      height: 30px;
+      color: black;
+      font-size: 30px;
+      line-height: 30px;
+  
+      position: 50% 50%;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: 10%;
+  
+      overflow: hidden;
+  }
+  ol{
+      list-style: none;
+      padding-left: 10px;
+      animation: cambio 7s infinite;
+  }  
+  ol, p{
+      margin: 0;
+  }
+  @keyframes cambio{
+  
+      0%{ margin-top: 0;}
+      20%{margin-top: 0;}
+  
+      25%{margin-top: -30px}
+      50%{ margin-top: -30px}
+  
+      55%{margin-top: -60px}
+      80%{margin-top: -60px}
+  
+      85%{margin-top: -30px;}
+      95%{margin-top: -30px;}
+  
+      100%{margin-top: 0;}
+  
+  }
+    /*TERMINA EL RESPONSIVE PARA CELULAR*/
+  }
+  @media screen and (max-width: 390px) {
+    #Cambio{
+      font-family: 'futura';
+      display: flex;
+      width: 285px;
+      height: 25px;
+      color: black;
+      font-size: 25px;
+      line-height: 25px;
+  
+      position: 50% 50%;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: 10%;
+  
+      overflow: hidden;
+  }
+  ol{
+      list-style: none;
+      padding-left: 10px;
+      animation: cambio 7s infinite;
+  }  
+  ol, p{
+      margin: 0;
+  }
+  @keyframes cambio{
+  
+      0%{ margin-top: 0;}
+      20%{margin-top: 0;}
+  
+      25%{margin-top: -25px}
+      50%{ margin-top: -25px}
+  
+      55%{margin-top: -50px}
+      80%{margin-top: -50px}
+  
+      85%{margin-top: -25px;}
+      95%{margin-top: -25px;}
+  
+      100%{margin-top: 0;}
+  
+  }
+    /*TERMINA EL RESPONSIVE PARA CELULAR*/
+  }
+
