@@ -1,0 +1,29 @@
+@import "_tipografia";
+@import "_colores";
+.menu{
+    font-family: $futura;
+    list-style: none;
+    padding: 0px;
+    background: $color_de_letras;
+    width: auto;
+    height: auto;
+    max-width: 958px;
+    margin-bottom: 40px;
+    justify-content: center;
+    li{
+        a{
+            text-decoration: none;
+            color: $color_de_letras_menu;
+            padding: 35px;
+            display: block;
+        }
+    }
+    li{
+        display: inline-block
+    }
+    li{
+        a:hover{
+            background: $hover_de_menu;
+        }
+    }
+}

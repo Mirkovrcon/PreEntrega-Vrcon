@@ -1,0 +1,6 @@
+@import "_colores";
+@import "_tipografia";
+body{
+    font-family: $futura $color_de_letras;
+    background: $color_de_fondo;
+  }

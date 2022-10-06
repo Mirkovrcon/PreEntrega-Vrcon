@@ -1,0 +1,38 @@
+@import "_colores";
+.img1{
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.img2{
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.img3{
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.maschico{
+    width: 400px;
+    height: 230px;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+}
+.align{
+    display: inline-flex;
+    flex-direction: row-reverse;
+    align-content: center;
+}
+.border{
+  border: 2px solid $color_de_letras;
+}

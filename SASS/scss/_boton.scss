@@ -1,0 +1,8 @@
+@import "_tipografia";
+.boton{
+    font-family: $futura;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: center;
+}

@@ -1,0 +1,214 @@
+@import "_boton";
+@import "_h1";
+@import "_footer";
+@import "colores";
+@import "_menu";
+@import "_tipografia";
+@import "_body";
+#contenedor{
+    width: 100%;
+    max-width: 970px;
+    min-width: 414px;
+    margin: 0 auto;
+    
+  }
+  .container {  display: grid;
+    grid-template-columns: 1fr 1.5fr 0.5fr;
+    grid-template-rows: 0.8fr 1fr 1fr 1fr 1fr 0.01fr;
+    gap: 10px 5px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Encabezado Encabezado Encabezado"
+      "Servicio1 Servicio1 Publicidad"
+      "Servicio2 Servicio2 Publicidad"
+      "Servicio3 Servicio3 Publicidad"
+      "Servicio4 Servicio4 Publicidad"
+      "Pie-de-pagina Pie-de-pagina Pie-de-pagina";
+  }
+  
+  #Encabezado { grid-area: Encabezado;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center; 
+  background: $color_de_grids;}
+  
+  #Publicidad { grid-area: Publicidad; 
+  background: $color_de_grids;}
+  
+  #Pie-de-pagina { grid-area: Pie-de-pagina;
+  background: $color_de_grids; }
+  
+  #Servicio1 {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Info1 Info1 cash1"
+      "Info1 Info1 cash1"
+      "Info1 Info1 cash1";
+    grid-area: Servicio1;
+    font-family: 'futura';
+    background: $color_de_grids;
+  }
+  
+  .Info1 { 
+    grid-area: Info1;
+    margin: 5%;
+    padding: 5%;
+     }
+  
+  .cash1 { 
+    grid-area: cash1;
+    margin: 5%;
+    padding: 5%;
+    }
+  
+  #Servicio2 {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Info2 Info2 cash2"
+      "Info2 Info2 cash2"
+      "Info2 Info2 cash2";
+    grid-area: Servicio2;
+    font-family: 'futura';
+    background: $color_de_grids;
+  }
+  
+  .Info2 { grid-area: Info2;
+    margin: 5%;
+    padding: 5%;
+    }
+  
+  .cash2 { grid-area: cash2;
+    margin: 5%;
+    padding: 5%;
+    }
+  
+  #Servicio3 {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Info3 Info3 cash3"
+      "Info3 Info3 cash3"
+      "Info3 Info3 cash3";
+    grid-area: Servicio3;
+    font-family: 'futura';
+    background: $color_de_grids;
+  }
+  
+  .Info3 { 
+    grid-area: Info3;
+    margin: 5%;
+    padding: 5%;
+     }
+  
+  .cash3 { 
+    grid-area: cash3;
+    margin: 5%;
+    padding: 5%;
+     }
+  
+  #Servicio4 {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Info4 Info4 cash4"
+      "Info4 Info4 cash4"
+      "Info4 Info4 cash4";
+    grid-area: Servicio4;
+    font-family: 'futura';
+    background: $color_de_grids;
+  }
+  
+  .Info4 { 
+    grid-area: Info4;
+    margin: 5%;
+    padding: 5%;
+     }
+  
+  .cash4 { 
+    grid-area: cash4;
+    margin: 5%;
+    padding: 5%;
+     }
+
+  .centrolistas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    padding: 0%;
+    margin-right: 0;
+    }
+    .boton{
+        font-family: 'futura';
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center; 
+    }
+  /*HASTA ACA ES TODO EL CONTENIDO QUE CONTIENE LA PAGINA WEB*/
+  /*COMIENZA EL RESPONSIVE PARA CELULAR*/
+@media screen and (max-width: 985px) {
+    .menu{
+      margin-top: 155px;
+      margin-bottom: 20px;
+      padding-left: 0;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      position: bottom;
+    }
+    .menu li a{
+      text-decoration: none;
+      color: $color_de_letras_menu;
+      padding: 15px;
+      display: block;
+    }
+    .container {  display: grid;
+      grid-template-columns: 1fr 1.5fr 0.5fr;
+      grid-template-rows: 1fr auto auto auto auto 0.01fr;
+      gap: 10px 5px;
+      grid-auto-flow: row;
+      grid-template-areas:
+        "Encabezado Encabezado Encabezado"
+        "Servicio1 Servicio1 Servicio1"
+        "Servicio2 Servicio2 Servicio2"
+        "Servicio3 Servicio3 Servicio3"
+        "Servicio4 Servicio4 Servicio4"
+        "Pie-de-pagina Pie-de-pagina Pie-de-pagina";
+    }
+    #Publicidad{
+      display: none;
+  
+    }
+    .boton{
+      font-family: 'futura';
+      display: flex;
+      flex-direction: column;
+      width: auto;
+      height: auto;
+      justify-content: start;
+      align-items: center;
+      
+  }
+  h2{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    padding-right: 40%;
+  }
+  /*TERMINA EL RESPONSIVE PARA CELULAR*/
+  }
