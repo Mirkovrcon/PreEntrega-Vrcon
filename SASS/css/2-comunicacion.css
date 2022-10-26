@@ -97,7 +97,7 @@ body {
   flex-direction: column;
   height: auto;
   justify-content: center;
-  background: #90AFC5; }
+  background-image: url(/PreEntrega-Vrcon/img/portadai.png) 50%;}
 
 #Publicidad {
   grid-area: Publicidad;
