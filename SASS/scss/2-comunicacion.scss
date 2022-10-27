@@ -30,14 +30,24 @@
     display: flex;
     flex-direction: column;
     height: auto;
-    justify-content: center; 
-  background: $color_de_grids;}
+    justify-content: center;
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-concepto-big-data-conexion-red-wireframeshapes-abstracto-poligonal-linea-punto_90220-496.jpg?w=1800&t=st=1666867872~exp=1666868472~hmac=e41dbb27c95b9d0aacde3fd16d41c382e2c8f3ad5a6c1f221b9e5a45f4e082b0);
+    background-size: 100%;
+    background-position: center;
+  }
   
   #Publicidad { grid-area: Publicidad; 
-  background: $color_de_grids;}
+    background-color:  #f3f4f4;
+    background-image: url(https://www.seekpng.com/png/detail/272-2727899_coming-soon-banner-transparent.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
   
   #Pie-de-pagina { grid-area: Pie-de-pagina;
-  background: $color_de_grids; }
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-concepto-big-data-conexion-red-wireframeshapes-abstracto-poligonal-linea-punto_90220-496.jpg?w=1800&t=st=1666867872~exp=1666868472~hmac=e41dbb27c95b9d0aacde3fd16d41c382e2c8f3ad5a6c1f221b9e5a45f4e082b0);
+    background-size: 100%;
+    background-position: center;}
   
   #Servicio1 {  display: grid;
     grid-template-columns: 1fr 1fr 1fr;

@@ -1,7 +1,6 @@
 {
   "name": "proyectofinal",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "abbrev": "^1.1.1",
@@ -246,10 +245,10 @@
     "build-tupaginawb-css": "node-sass --include-path scss scss/4-tupaginawb.scss css/4-tupaginawb.css",
     "build-empresas-css": "node-sass --include-path scss scss/5-empresas.scss css/5-empresas.css",
     "build-contacto-css": "node-sass --include-path scss scss/6-contacto.scss css/6-contacto.css",
-    "watch-css": "nodemon -e scss -x \"npm run build-empresas-css\""
-
+    "watch-css": "nodemon -e scss -x \"npm run build-estilodetusredes-css\""
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "description": ""
 }

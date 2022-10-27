@@ -75,7 +75,7 @@ h1 {
 
 body {
   font-family: "futura", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif #2A3132;
-  background: #523400; }
+  background-image: url(https://img.freepik.com/vector-gratis/fondo-blanco-hexagono-tecnologia-azul_1017-19366.jpg?w=1380&t=st=1666863522~exp=1666864122~hmac=a6b2867326108da671522ed5803a3391ce701bd149c05e3d8a4743d63102af63); }
 
 #contenedor {
   width: 100%;
@@ -112,7 +112,9 @@ h1 {
 
 #Pie-de-pagina {
   grid-area: Pie-de-pagina;
-  background: #90AFC5; }
+  background-image: url(https://img.freepik.com/foto-gratis/fondo-concepto-big-data-conexion-red-wireframeshapes-abstracto-poligonal-linea-punto_90220-496.jpg?w=1800&t=st=1666867872~exp=1666868472~hmac=e41dbb27c95b9d0aacde3fd16d41c382e2c8f3ad5a6c1f221b9e5a45f4e082b0);
+  background-size: 100%;
+  background-position: center; }
 
 #Encabezado {
   grid-area: Encabezado;
@@ -120,11 +122,17 @@ h1 {
   flex-direction: column;
   height: auto;
   justify-content: center;
-  background: #90AFC5; }
+  background-image: url(https://img.freepik.com/foto-gratis/fondo-concepto-big-data-conexion-red-wireframeshapes-abstracto-poligonal-linea-punto_90220-496.jpg?w=1800&t=st=1666867872~exp=1666868472~hmac=e41dbb27c95b9d0aacde3fd16d41c382e2c8f3ad5a6c1f221b9e5a45f4e082b0);
+  background-size: 100%;
+  background-position: center; }
 
 #Publicidad {
   grid-area: Publicidad;
-  background: #90AFC5; }
+  background-color: #f3f4f4;
+  background-image: url(https://www.seekpng.com/png/detail/272-2727899_coming-soon-banner-transparent.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top center; }
 
 #Contenido1 {
   grid-area: Contenido1;

@@ -30,13 +30,17 @@
     flex-direction: column;
     height: auto;
     justify-content: center; 
-    background: $color_de_grids;
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-concepto-big-data-conexion-red-wireframeshapes-abstracto-poligonal-linea-punto_90220-496.jpg?w=1800&t=st=1666867872~exp=1666868472~hmac=e41dbb27c95b9d0aacde3fd16d41c382e2c8f3ad5a6c1f221b9e5a45f4e082b0);
+    background-size: 100%;
+    background-position: center;
     }
   
   #FORMULARIO { grid-area: FORMULARIO; }
   
   #PIE-DE-PAGINA { grid-area: PIE-DE-PAGINA;
-    background: $color_de_grids; }
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-concepto-big-data-conexion-red-wireframeshapes-abstracto-poligonal-linea-punto_90220-496.jpg?w=1800&t=st=1666867872~exp=1666868472~hmac=e41dbb27c95b9d0aacde3fd16d41c382e2c8f3ad5a6c1f221b9e5a45f4e082b0);
+    background-size: 100%;
+    background-position: center; }
   /*HASTA ACA ES TODO EL CONTENIDO QUE CONTIENE LA PAGINA WEB*/
   form{
     padding: 5%;
